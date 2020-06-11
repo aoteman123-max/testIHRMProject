@@ -13,6 +13,7 @@ suite = unittest.TestSuite()
 # 3 将测试用例添加到测试套件
 suite.addTest(unittest.makeSuite(TestIHRMEmployeeParams))
 suite.addTest(unittest.makeSuite(TestIHRMLoginParams))
+
 # 4 定义测试报告的目录和报告名称
 # report_path = app.BASE_DIR + "/report/ihrm{}.html".format(time.strftime('%Y%m%d %H%M%S'))
 # 5 使用HTMLTestRunner_PY3生成测试报告
